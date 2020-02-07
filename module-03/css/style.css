@@ -4,8 +4,8 @@
 }
 
 body {
-    margin: 2%;
-    font-family: 'Oswald', sans-serif;
+    margin: 77px;
+    font-family: 'Playfair Display', serif;
     font-size: 100%;
     font-weight: normal;
 }
@@ -17,15 +17,12 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-.main {
-    margin: 1%;
-    padding: 0%;
-}
+
 .menu-top {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .top-navigation {
     width: 60%;
@@ -35,25 +32,28 @@ menu>li {
 }
 .menu-item_link {
     color: #000;
-    font-size: 18px;
+    font-size: 11px;
     text-decoration: none;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 
 .box1 {
     margin-top: 30px;
     margin-left: 320px;
+    margin-bottom: 100px;
 }
 
 .box2 {
     margin-top: 0px;
     margin-left: 320px;
+    margin-bottom: 100px;
 }
 
 .box3 {
     margin-top: 0px;
     margin-left: 320px;
+    margin-bottom: 100px;
 }
 
 .content1 {
@@ -80,6 +80,7 @@ menu>li {
 }
 
 .title {
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;   
 }
