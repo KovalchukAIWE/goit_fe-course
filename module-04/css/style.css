@@ -46,9 +46,16 @@
     width: 70px;
     padding: 0 20px;
 }
+
+.wrapper {
+  width: 80%;
+  height: 100%;
+}
+
   .content {
+    float: left;
     width: 250px;
-    height: auto;
+    height: 350px;
     margin: 10px;
   }
   .image {
