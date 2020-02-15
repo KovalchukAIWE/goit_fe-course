@@ -1,87 +1,103 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    margin: 77px;
-    font-family: 'Playfair Display', serif;
-    font-size: 100%;
-    font-weight: normal;
+.wrapper {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
 }
+
+
 .header {
     width: 100%;
-    background: transparent;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .menu-top {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none;
+    text-align: center;
 }
+
 .top-navigation {
-    width: 60%;
+    margin: 0 140px 0px 100px;
+
 }
 
 .menu-item_link {
     color: #000;
-    font-size: 11px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    }
+
+.menu-item_link_1 {
+    color: #68cbf8;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 1px;
+    font-size: 14px;
+    }
+
+.img_holder {
+    height: 280px;
+    width: 420px;
 }
 
-.box1 {
-    margin-top: 30px;
-    margin-left: 320px;
-    margin-bottom: 100px;
+.img_block {
+    height: 280px;
+    width: 420px;
+    margin-bottom: 30px;
 }
 
-.box2 {
-    margin-top: 0px;
-    margin-left: 320px;
-    margin-bottom: 100px;
+.box {
+    width: 100%;
+    
 }
 
-.box3 {
-    margin-top: 0px;
-    margin-left: 320px;
-    margin-bottom: 100px;
-}
-
-.content1 {
+.content {
     display: inline-block;
-    margin: 10px;
-    padding: 40px;
-    height: 400px;
-    width: 30%;
+    width: 448px
 }
 
-.content2 {
-    padding: 40px;
-    margin-left: 20px;
-    display: inline-block;
-    height: 400px;
-    width: 30%;
+.right {
+    margin-left: 28px;
+    margin-bottom: 30px;
 }
 
 .section {
-    margin: 5px;
-    margin-left: 0px;
-    padding: 5px;
-    padding-left: 0;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #b4ad9e;
+}
+
+.second {
+    margin-left: 28px;
 }
 
 .title {
+    font-family: 'Playfair Display', serif;
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;   
+    color: #000;
+    margin-top: 35px;
+    margin-bottom: 45px;   
+}
+
+.text {
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 130px;
+}
+
+.text1 {
+    color: #000;
+    font-family: 'Playfair Display', serif;
 }
 
 span {
@@ -92,5 +108,6 @@ span {
 
 .footer {
     text-align: center;
-    margin: 30px;
+    margin-top: 40px;
+    margin-bottom: 75px;
 }
