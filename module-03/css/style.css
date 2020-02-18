@@ -101,13 +101,17 @@
 }
 
 span {
-    border: 2px solid;
+    border: 1px solid;
     font-size: 20px;
     padding: 10px 20px;
 }
 
 .footer {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 75px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+span:hover {
+    cursor: pointer;
 }
