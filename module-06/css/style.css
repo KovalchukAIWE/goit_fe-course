@@ -51,7 +51,7 @@
   }
 
   .line {
-      margin-top: 12px;
+    margin-top: 12px;
     height: 3px;
     background: #f38181;
     opacity: 0;
@@ -300,7 +300,19 @@ p {
 .list_team_item:hover .overlay {
   opacity: 0.9;
   z-index: 2;
+  transition: all 0.5s;
+  animation: lineanimation 200ms linear ;
 }
+
+@keyframes lineanimation {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 100%;
+  }
+}
+
 
 .list_team_item:hover .overlay_img {
   opacity: 0.9;
@@ -363,18 +375,27 @@ hr {
   background-color: #95e1d3;
   width: 150px;
   height: 40px;
+  display: inline-block;
 }
 
-button:hover {
+.button_mail:hover {
   cursor: pointer;
 }
 
 .e_mail {
   width: 229px;
-  height: 35px;
+  height: 40px;
   font-family: 'Roboto',  sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #d2d2d2;
-  margin-left: 515px;
+  margin: 0px -5px 0px 524px;
+  display: inline-block;
+}
+
+.button_mail_p {
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  margin: 11px 0px 11px 30px;
 }
