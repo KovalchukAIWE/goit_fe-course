@@ -30,19 +30,17 @@
 }
 
 .menu-item_link {
-    color: #000;
+    color: #626262;
     text-decoration: none;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 14px;
     }
 
-.menu-item_link_1 {
-    color: #68cbf8;
-    text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 14px;
-    }
+.menu-item_link:hover {
+    color: #03a9f4;
+}
+
 
 .img_holder {
     height: 280px;
@@ -84,32 +82,36 @@
 .title {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-    color: #000;
+    font-weight: 400;
+    color: #626262;
     margin-top: 35px;
     margin-bottom: 45px;   
 }
 
 .text {
-    color: #000;
+    color: #626262;
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
     margin-bottom: 130px;
 }
 
 .text1 {
-    color: #000;
+    color: #626262;
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
 }
 
 span {
     border: 1px solid;
-    font-size: 28px;
-    padding: 14px 20px;
+    font-size: 20px;
+    padding: 18px 38px;
+    color: #626262;
 }
 
 .footer {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 90px;
+    margin-top: 74px;
+    margin-bottom: 70px;
 }
 
 span:hover {
