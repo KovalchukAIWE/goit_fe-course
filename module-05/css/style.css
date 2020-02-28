@@ -24,8 +24,7 @@
     display: inline-block;
     padding: 0 20px;
   }
-
-  
+ 
   
   .menu_item a {
     font-family: 'Open Sans', sans-serif;
@@ -35,23 +34,9 @@
     color: #000;
   }
 
-
-  .menu_item_1 {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-    
-  }
-
-  .menu_item_1 a {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
+  .menu_item a:hover {
     color: #1abc9c;
   }
-
-  
     
   .logo {
     float: left;
@@ -82,11 +67,9 @@
 
                                                   /* section 1 */
 
-    
-    .img_black {
-    background-image: url(../img/BGpeople.png);
-    
-  }
+
+
+
 
    .discription {
     color: #ffffff;
@@ -131,13 +114,15 @@
     width: 104px;
     height: 104px;
     color: #fff;
-    background-color: #509d8b;
+    background-color: rgb(78, 198, 171);
   }
 
   .button:hover {
-    background: #1abc9c;
+    background: rgb(26, 188, 156);
+    cursor: pointer;
   }
-    
+
+      
                                               /* section_2 */
 
   .section_2 {
@@ -202,15 +187,21 @@
   
   .product_name  {
     background: #525050;
-    padding: 10px 23px 10px 6px;
+    padding: 10px 23px 10px 14px;
     float: left;
     transition: all .3s linear;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
   }
   
   .product_coast {
     background: #8c8c8c;
-    padding: 8px 5px 5px 16px;
+    padding: 8px 5px 5px 14px;
     float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
   }
   
   .product_item:hover > .card > .text_holder .product_name {
@@ -252,6 +243,8 @@
     opacity: 0.5;
   }
 
+ 
+  
   .overlay_icon_1 {
     position: absolute;
     width: 50px;
@@ -265,6 +258,7 @@
   .overlay_icon_1:hover {
     background-color: #1abc9c;
     border: none;
+    cursor: pointer;
   }
   
   
@@ -295,6 +289,7 @@
   .overlay_icon_2:hover {
     background-color: #1abc9c;
     border: none;
+    cursor: pointer;
   }
 
   
@@ -329,6 +324,7 @@
   .overlay_icon_3:hover {
     background-color: #1abc9c;
     border: none;
+    cursor: pointer;
   }
 
   .icon_img_3 {
@@ -376,6 +372,7 @@
   .overlay_icon_4:hover {
     background-color: #1abc9c;
     border: none;
+    cursor: pointer;
   }
 
 .footer {
