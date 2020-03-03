@@ -351,6 +351,8 @@ hr {
 
 
 .footer_text {
+  display: flex;
+  text-align: center;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -360,17 +362,19 @@ hr {
   display: inline-block;
   margin-top: 27px;
   margin-bottom: 27px;
+  margin-left: 5px;
 }
 .color_text {
   display: inline-block;
   color: #f38181;
   margin-top: 27px;
-  margin-bottom: 27px;
+  margin-left: 5px;
 }
 
 form {
   display: inline-block;
-  margin-left: 524px;
+  margin-left: auto;
+  margin-top: 10px;
   }
 
 
@@ -403,4 +407,8 @@ form {
   margin-top: 11px;
   text-align: center;
   color: #ffffff;
+}
+
+#Capa_1 {
+  margin-top: 30px;
 }
