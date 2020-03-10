@@ -26,9 +26,11 @@
 
 .logo {
   color: #fed136;
-  font-family: 'Caveat', ;
+  font-family: 'Caveat';
   font-size: 26px;
   font-weight: 700;
+  font-family: 'Montserrat';
+  font-style: italic;
 }
 
 
@@ -187,7 +189,10 @@ cursor: pointer;
   margin-right: 28px;
 }
 
-
+/* .name {
+  display: inline-block;
+  position: relative;
+} */
 .name_holder {
   width: 455px;
   height: 52px;
@@ -248,3 +253,15 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+/* .form-shape:invalid:focus {
+  display: inline-block;
+  position: absolute;
+  outline: 3px solid red;
+  outline-offset: -8px;
+
+}
+.form-shape:valid:focus {
+  outline: 3px solid green;
+  outline-offset: -8px;
+} */
