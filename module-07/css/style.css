@@ -13,7 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px auto 130px auto;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    margin-top: 50px;
   }
 
   .main_menu {
@@ -26,15 +28,11 @@
 
 .logo {
   color: #fed136;
-  font-family: 'Caveat';
+  font-family: 'Great Vibes', cursive;
   font-size: 26px;
-  font-weight: 700;
-  font-family: 'Montserrat';
-  font-style: italic;
+  font-weight: 400;
 }
 
-
-  
   .menu_item {
     list-style: none;
   }
@@ -57,8 +55,8 @@
   
 
 .cervice {
-  width: 940px;
-  margin: auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
   .title {
@@ -66,16 +64,23 @@
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .sub_title {
-    font-family: 'Simonetta', ;
+    font-family: 'Sriracha', cursive;
     font-size: 16px;
     font-weight: 400;
     color: #777777;
     text-align: center;
     margin-bottom: 80px;
+  }
+
+  .features {
+    width: 940px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; 
   }
 
   .features_list {
@@ -145,7 +150,7 @@ cursor: pointer;
                                                    /* section contscts */
 
 .contacts {
-  width: 1400px;
+  width: auto;
   height: 677px;
   margin: 0 auto;
   display: block;
@@ -167,9 +172,9 @@ cursor: pointer;
 }
 
 .wrap {
-  width: 940px;
-  margin: 0 auto;
   display: flex;
+  margin: 0 auto;
+  justify-content: center;  
 }
 
 .message_holder {
@@ -189,10 +194,6 @@ cursor: pointer;
   margin-right: 28px;
 }
 
-/* .name {
-  display: inline-block;
-  position: relative;
-} */
 .name_holder {
   width: 455px;
   height: 52px;
@@ -230,7 +231,7 @@ cursor: pointer;
 
 .img_bg {
   position: absolute;
-  margin-left: 785px;
+  margin-left: 1000px;
   margin-top: 129px;
 }
 
@@ -247,21 +248,29 @@ button {
 
 .send_massage {
   margin-top: 30px;
-  margin-left: 580px;
+  text-align: center;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-/* .form-shape:invalid:focus {
-  display: inline-block;
-  position: absolute;
+
+input:invalid:focus {
   outline: 3px solid red;
   outline-offset: -8px;
-
-}
-.form-shape:valid:focus {
+ }
+ input:valid:focus {
   outline: 3px solid green;
   outline-offset: -8px;
-} */
+ }
+
+ textarea:valid:focus {
+  outline: 3px solid green;
+  outline-offset: -8px;
+ }
+
+ textarea:invalid:focus {
+  outline: 3px solid red;
+  outline-offset: -8px;
+ }
