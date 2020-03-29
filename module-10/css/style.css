@@ -594,12 +594,21 @@ color: #ffffff;
 }
 .image-designer {
   background-image: url(../img/imagecompressor/Layer\ 16@2x-min.jpg);
+  background-size: cover;
+  width: 380px;
+  height: 470px;
 }
 
 .image-web_designer {
   background-image: url(../img/imagecompressor/Layer\ 19@2x-min.jpg);
+  background-size: cover;
+  width: 380px;
+  height: 470px;
 }
 .image-developer {
   background-image: url(../img/imagecompressor/Layer\ 18@2x-min.jpg);
+  background-size: cover;
+  width: 380px;
+  height: 470px;
   }
 }
